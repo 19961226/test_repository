@@ -127,10 +127,18 @@
             </p>
 
             <ul class="slick-area">
-                <li><img src="./img/about1.jpg" alt=""></li>
-                <li><img src="./img/about2.jpg" alt=""></li>
-                <li><img src="./img/about3.jpg" alt=""></li>
-                <li><img src="./img/about4.jpg" alt=""></li>
+                <li>
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/img/about1.jpg'); ?>" alt="">
+                </li>
+                <li>
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/img/about2.jpg'); ?>" alt="">
+                </li>
+                <li>
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/img/about3.jpg'); ?>" alt="">
+                </li>
+                <li>
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/img/about4.jpg'); ?>" alt="">
+                </li>
             </ul>
         </section>
 
@@ -140,7 +148,7 @@
                 <div class="en">Facility</div>
             </h2>
             <div class="container">
-                <div class="explanation fade-in fade-left">
+                <div class="explanation slide explanation-slide-left">
                     <h3 class="facility-title">
                         Loyly Sauna
                     </h3>
@@ -149,12 +157,12 @@
                         サウンドと照明を用いたアウフグースショーも不定期にて開催します。
                     </p>    
                 </div>
-                <div class="image fade-in fade-bottom">
-                    <img class="" src="./img/facility1.jpg" alt="">
+                <div class="image image-balloon">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/img/facility1.jpg'); ?>" alt="">
                 </div>
             </div>
             <div class="private container">
-                <div class="explanation  fade-in fade-right ">
+                <div class="explanation slide explanation-slide-right">
                     <h3 class="facility-title">
                         Private Sauna
                     </h3>
@@ -163,12 +171,12 @@
                         プライベートサウナでは、さまざまな香りのロウリュウをお楽しみいただけます。
                     </p>
                 </div>
-                <div class="image fade-in fade-bottom">
-                    <img src="./img/facility2.jpg" alt="">
+                <div class="image image-balloon">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/img/facility2.jpg'); ?>" alt="">
                 </div>
             </div>
             <div class="water">
-                <div class="explanation fade-in fade-bottom">
+                <div class="explanation slide explanation-slide-bottom">
                     <h3 class="facility-title">
                         Water Bath
                     </h3>
@@ -176,49 +184,49 @@
                 </div>
                 <div class="container">
                     <div class="inner">
-                        <div class="explanation fade-in fade-bottom">
+                        <div class="explanation slide explanation-slide-bottom">
                             <h4 class="water-title">
                                 −涼−
                             </h4>
                             <p>22度設定の水風呂で初心者の方でも安心して入浴可能な水風呂です。</p>
                         </div>
-                        <div class="image  fade-in fade-bottom">
-                            <img src="./img/facility3.jpg" alt="">
-                        </div>    
+                        <div class="image image-balloon">
+                            <img src="<?php echo esc_url( get_template_directory_uri() . '/img/facility3.jpg'); ?>" alt="">
+                        </div>
                     </div>
                     <div class="inner">
-                        <div class="explanation fade-in fade-bottom">
+                        <div class="explanation slide explanation-slide-bottom">
                             <h4 class="water-title">
                                 −冷−
                             </h4>
                             <p>15度前後の水風呂でジェットバブルの泡が心地よい水風呂です。</p>
                         </div>
-                        <div class="image  fade-in fade-bottom">
-                            <img src="./img/facility4.jpg" alt="">
+                        <div class="image image-balloon">
+                            <img src="<?php echo esc_url( get_template_directory_uri() . '/img/facility4.jpg'); ?>" alt="">
                         </div>
                     </div>
                 </div>
-                <ul class="rest container">
-                    <li class="explanation fade-in fade-bottom">
-                        <h3 class="facility-title">
-                            Rest Space
-                        </h3>
-                        <p>整いスペースには60人以上が座れるスペースをご用意。<br>
-                            また、カウンターでドリンクオーダーも可能です。
-                            ポカリやデトックスウォーターなど多種ドリンクをご用意。
-                        </p>
-                    </li>
-                    <li class="image">
-                        <img class="fade-in fade-bottom" src="./img/rest1.jpg" alt="">
-                    </li>
-                    <li class="image">
-                        <img class="fade-in fade-bottom" src="./img/rest2.jpg" alt="">
-                    </li>
-                    <li class="image">
-                        <img class="fade-in fade-bottom" src="./img/rest3.jpg" alt="">
-                    </li>
-                </ul>
-    
+            </div>
+            <div class="rest">
+                <div class="inner-block explanation slide explanation-slide-bottom">
+                    <h3 class="facility-title">
+                        Rest Space
+                    </h3>
+                    <p>整いスペースには60人以上が座れるスペースをご用意。<br>
+                       また、カウンターでドリンクオーダーも可能です。
+                       ポカリやデトックスウォーターなど多種ドリンクをご用意。
+                    </p>
+                </div>
+                <!-- <div class="fade-img image-balloon">
+                    <img class="image" src="<?php echo esc_url( get_template_directory_uri() . '/img/rest1.jpg'); ?>" alt="">
+                    <img class="image" src="<?php echo esc_url( get_template_directory_uri() . '/img/rest2.jpg'); ?>" alt="">
+                    <img class="image" src="<?php echo esc_url( get_template_directory_uri() . '/img/rest3.jpg'); ?>" alt="">
+                </div> -->
+                <div class="fade-img-box">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/img/rest1.jpg'); ?>" alt="">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/img/rest2.jpg'); ?>" alt="">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/img/rest3.jpg'); ?>" alt="">
+                </div>
             </div>
         </section>
 
@@ -297,6 +305,10 @@
             </div>
         </section>
     </main>
+    
+    <div class="go-top">
+        <a href="#">TOP</a>
+    </div>
 
     <footer id="footer">
         <ul class="sns">
