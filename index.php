@@ -91,7 +91,7 @@
                         サウンドと照明を用いたアウフグースショーも不定期にて開催します。
                     </p>    
                 </div>
-                <div class="image image-balloon">
+                <div class="image">
                     <img src="<?php echo esc_url( get_template_directory_uri() . '/img/facility1.jpg'); ?>" alt="">
                 </div>
             </div>
@@ -151,7 +151,7 @@
                        ポカリやデトックスウォーターなど多種ドリンクをご用意。
                     </p>
                 </div>
-                <div class="fade-img ">
+                <div class="fade-img image-balloon">
                     <img class="image" src="<?php echo esc_url( get_template_directory_uri() . '/img/rest1.jpg'); ?>" alt="">
                     <img class="image" src="<?php echo esc_url( get_template_directory_uri() . '/img/rest2.jpg'); ?>" alt="">
                     <img class="image" src="<?php echo esc_url( get_template_directory_uri() . '/img/rest3.jpg'); ?>" alt="">
