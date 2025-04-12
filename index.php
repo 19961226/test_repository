@@ -91,7 +91,7 @@
                         サウンドと照明を用いたアウフグースショーも不定期にて開催します。
                     </p>    
                 </div>
-                <div class="image">
+                <div class="image image-balloon">
                     <img src="<?php echo esc_url( get_template_directory_uri() . '/img/facility1.jpg'); ?>" alt="">
                 </div>
             </div>
