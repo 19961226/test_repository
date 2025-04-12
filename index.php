@@ -151,7 +151,7 @@
                        ポカリやデトックスウォーターなど多種ドリンクをご用意。
                     </p>
                 </div>
-                <div class="fade-img image-balloon">
+                <div class="fade-img ">
                     <img class="image" src="<?php echo esc_url( get_template_directory_uri() . '/img/rest1.jpg'); ?>" alt="">
                     <img class="image" src="<?php echo esc_url( get_template_directory_uri() . '/img/rest2.jpg'); ?>" alt="">
                     <img class="image" src="<?php echo esc_url( get_template_directory_uri() . '/img/rest3.jpg'); ?>" alt="">
