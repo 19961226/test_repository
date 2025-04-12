@@ -669,55 +669,55 @@ $breakpoints: (
 
   .rest {
     .explanation {
-      overflow: hidden;
+      // overflow: hidden;
 
       @include mq(md) {
         width: 100%;
       }
     }
 
-    // .fade-img {
-    //   position:relative;
-    //   width: 100%;
-    //   height: calc(50vh - 10rem);
-    //   @include mq(md) {
-    //     height: calc(100vh - 10rem);
-    //   }
-    // }
-
-    // .image {
-    //   position: absolute;
-    //   height: calc(50vh - 10rem);
-    //   object-fit: cover;
-    //   @include mq(md) {
-    //     height: calc(100vh - 10rem);
-    //   }
-    // }
-
-    .inner-block {
-      width: 600px;
-      margin: 0 auto;
+    .fade-img {
       position:relative;
-     }
-     
-     
-     .fade-img-box {
-      width: 500px;
-      height: 300px;
-      margin-left: auto;
-      margin-top: 10px;
-      position:relative;
-      border:10px solid #333;
-     }
-     
-     .fade-img-box img {
-      position: absolute;
-      top: 0;
-      left: 0;
       width: 100%;
-      height: 100%;
-      object-fit:cover;
-     }
+      height: calc(50vh - 10rem);
+      @include mq(md) {
+        height: calc(100vh - 10rem);
+      }
+    }
+
+    .image {
+      position: absolute;
+      height: calc(50vh - 10rem);
+      object-fit: cover;
+      @include mq(md) {
+        height: calc(100vh - 10rem);
+      }
+    }
+
+    // .inner-block {
+    //   width: 600px;
+    //   margin: 0 auto;
+    //   position:relative;
+    //  }
+     
+     
+    //  .fade-img-box {
+    //   width: 500px;
+    //   height: 300px;
+    //   margin-left: auto;
+    //   margin-top: 10px;
+    //   position:relative;
+    //   border:10px solid #333;
+    //  }
+     
+    //  .fade-img-box img {
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   width: 100%;
+    //   height: 100%;
+    //   object-fit:cover;
+    //  }
   }
 
 

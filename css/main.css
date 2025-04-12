@@ -745,35 +745,31 @@ li {
   margin-bottom: 2rem;
 }
 
-.rest .explanation {
-  overflow: hidden;
-}
 @media screen and (min-width: 768px) {
   .rest .explanation {
     width: 100%;
   }
 }
-.rest .inner-block {
-  width: 600px;
-  margin: 0 auto;
+.rest .fade-img {
   position: relative;
-}
-.rest .fade-img-box {
-  width: 500px;
-  height: 300px;
-  margin-left: auto;
-  margin-top: 10px;
-  position: relative;
-  border: 10px solid #333;
-}
-.rest .fade-img-box img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
+  height: calc(50vh - 10rem);
+}
+@media screen and (min-width: 768px) {
+  .rest .fade-img {
+    height: calc(100vh - 10rem);
+  }
+}
+.rest .image {
+  position: absolute;
+  height: calc(50vh - 10rem);
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media screen and (min-width: 768px) {
+  .rest .image {
+    height: calc(100vh - 10rem);
+  }
 }
 
 #price {
