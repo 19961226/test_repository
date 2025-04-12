@@ -115,19 +115,19 @@ $(function () {
   /*=================================================
   ballon
   ===================================================*/
-  // $(window).scroll(function () {
-  //   $(".image-balloon").each(function () {
-  //     let target = $(this).offset().top;
-  //     let scroll = $(window).scrollTop();
-  //     let windowHeight = $(window).height();
-  //     if (scroll > target - windowHeight + 100) {
-  //       $(this).addClass("balloon");
-  //     }
-  //     else{
-  //       $(this).removeClass("balloon");
-  //     }
-  //   });
-  // });
+  $(window).scroll(function () {
+    $(".image-balloon").each(function () {
+      let target = $(this).offset().top;
+      let scroll = $(window).scrollTop();
+      let windowHeight = $(window).height();
+      if (scroll > target - windowHeight + 100) {
+        $(this).addClass("balloon");
+      }
+      else{
+        $(this).removeClass("balloon");
+      }
+    });
+  });
 
   /*=================================================
   fade

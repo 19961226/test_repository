@@ -252,6 +252,10 @@ li {
             transform: translateY(0);
   }
 }
+.image-balloon {
+  opacity: 0;
+}
+
 .balloon {
   -webkit-animation: balloon 1.3s ease-out 0s 1 forwards;
           animation: balloon 1.3s ease-out 0s 1 forwards;
