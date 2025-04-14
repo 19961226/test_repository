@@ -38,8 +38,8 @@ $(function () {
     // ページトップからジャンプ先の要素までの距離を取得
     let position = ((target.offset().top) -100);
     // animateでスムーススクロールを行う   ページトップからpositionだけスクロールする
-    // 600はスクロール速度で単位はミリ秒  swingはイージングのひとつ
     const speed_scroll = 1000
+    // 1000はスクロール速度で単位はミリ秒  swingはイージングのひとつ
     $("html, body").animate({ scrollTop:position}, speed_scroll, "swing");
     // urlが変化しないようにfalseを返す
     return false;
